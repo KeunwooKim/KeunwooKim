@@ -55,8 +55,7 @@
 <br>
 
 ## 📫 Contact
-- **Email:** (이메일 주소를 입력하세요)
-- **Blog:** (블로그가 있다면 입력하세요)
+- **Email:** andy_0613@naver.com
 
 <br>
 <img src="https://capsule-render.vercel.app/api?type=waving&color=BDBDC8&height=100&section=footer" />
