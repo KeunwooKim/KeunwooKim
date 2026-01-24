@@ -49,11 +49,6 @@
   - **시설 탐색:** 사용자 위치 기반 반려동물 동반 가능 시설 검색 기능 제공
 - [👉 **GitHub Repo Link**](https://github.com/KeunwooKim/Pets_infra)
 
-### 3. 🕵️‍♂️ 셜록 홈즈 (Sherlock Holmes) 인터랙티브 추리 게임
-> **Description:** 고전 소설을 현대적으로 재해석한 터치 기반 인터랙티브 스토리 게임
-- **Tech:** Python, Ren'Py, Generative AI (Asset Creation)
-- **Role:** 게임 시나리오 기획, 분기형 스토리 로직 구현, AI 활용 에셋 제작
-- [👉 **GitHub Repo Link**](#) <br>
 
 ## 📈 GitHub Stats
 <div align="center">
