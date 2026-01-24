@@ -7,7 +7,7 @@
 ## 🧑‍💻 About Me
 **"데이터 속에서 의미를 찾아내는 연구자, 김근우입니다."**
 
-원광대학교 차세대 정보처리 연구실(Next-Generation Information Processing Lab)에서 학부 연구생으로 활동하며, 자연어 처리(NLP)와 빅데이터 분석을 연구하고 있습니다. 텍스트 데이터에서 가치를 추출하는 모델링뿐만 아니라, 사용자가 즐길 수 있는 인터랙티브 콘텐츠 개발에도 깊은 흥미를 가지고 있습니다.
+원광대학교 차세대 정보처리 연구실(Next-Generation Information Processing Lab)에서 학부 연구생으로 활동하며, 자연어 처리(NLP)와 빅데이터 분석을 연구했습니다. 텍스트 데이터에서 가치를 추출하는 모델링뿐만 아니라, 사용자가 즐길 수 있는 인터랙티브 콘텐츠 개발에도 깊은 흥미를 가지고 있습니다.
 
 - 🎓 **Education:** 원광대학교 인공지능융합학과 & 콘텐츠미디어SW융합전공 (복수전공)
 - 🔬 **Role:** Undergraduate Researcher @ Next-Gen Info Processing Lab
