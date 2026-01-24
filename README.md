@@ -48,7 +48,6 @@
 
 ## 📈 GitHub Stats
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=KeunwooKim&show_icons=true&theme=radical" height="150px" alt="Keunwoo's Github Stats"/>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KeunwooKim&layout=compact&theme=radical" height="150px" alt="Top Langs"/>
 </div>
 
