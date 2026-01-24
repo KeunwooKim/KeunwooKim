@@ -22,7 +22,7 @@
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=PyTorch&logoColor=white"/> <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=HuggingFace&logoColor=black"/> <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white"/> <img src="https://img.shields.io/badge/Scikit_Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white"/>
 
 ### 💻 Backend & Server
-<img src="https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=Ubuntu&logoColor=white"/> <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"/> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=Docker&logoColor=white"/> <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=Linux&logoColor=black"/>
+<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=FastAPI&logoColor=white"/> <img src="https://img.shields.io/badge/Apache_Cassandra-1287B1?style=flat-square&logo=apachecassandra&logoColor=white"/> <img src="https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=Ubuntu&logoColor=white"/> <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"/> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=Docker&logoColor=white"/>
 
 ### 🎮 Content & Web
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=black"/> <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=Streamlit&logoColor=white"/> <img src="https://img.shields.io/badge/Ren'Py-FF7F7F?style=flat-square&logo=Ren'Py&logoColor=white"/>
@@ -31,20 +31,29 @@
 
 ## 🚀 Key Projects
 
-### 1. KoBERT 기반 재난 문자 개체명 인식 (NER) 모델 개발
-> **Description:** 한국어 재난 문자 텍스트에서 재난 유형, 발생 위치 등 핵심 정보를 자동으로 추출하는 AI 모델 연구
-- **Tech:** Python, PyTorch, KoBERT, Hugging Face
-- **Role:** 데이터 전처리, 모델 파이닝 튜닝, 성능 평가
-- **Result:** 비정형 재난 데이터의 구조화 가능성 입증 및 논문 작성 진행
-- [👉 GitHub Repo Link](#) ### 2. 셜록 홈즈(Sherlock Holmes) 인터랙티브 추리 게임
-> **Description:** 고전 소설을 재해석한 터치 기반 인터랙티브 스토리 게임 개발
+### 1. 🚨 Disaster Service (재난 정보 수집 및 실시간 알림 시스템)
+> **Description:** 공공 데이터 포털 및 재난 문자 데이터를 수집·가공하여 실시간 알림을 제공하는 백엔드 시스템
+- **Tech:** Python, FastAPI, Cassandra, KoBERT(NER), FCM
+- **Key Features:**
+  - **NER 모델링:** 비정형 재난 문자에서 발생 위치 및 재난 유형 자동 추출 (KoBERT Fine-tuning)
+  - **데이터 파이프라인:** 기상청/행안부 데이터 크롤링 및 실시간 DB 적재
+  - **API & Push:** FastAPI 기반 서버 구축 및 FCM을 통한 모바일 앱 푸시 알림 전송
+- [👉 **GitHub Repo Link**](https://github.com/KeunwooKim/Disaster_service)
+
+### 2. 🐾 Seoul Pet Infrastructure Dashboard (서울시 반려동물 인프라 분석)
+> **Description:** 서울시 반려동물 등록 현황과 관련 인프라(병원, 편의시설)의 불균형을 분석하는 인터랙티브 대시보드
+- **Tech:** Python, Streamlit, Pydeck, Plotly, Pandas
+- **Key Features:**
+  - **3D 시각화:** Pydeck을 활용한 자치구별 인구/반려동물 밀도 3D 지도 구현
+  - **데이터 분석 (EDA):** 등록 수 대비 인프라 부족 지역 산출 및 불균형 지표 시각화
+  - **시설 탐색:** 사용자 위치 기반 반려동물 동반 가능 시설 검색 기능 제공
+- [👉 **GitHub Repo Link**](https://github.com/KeunwooKim/Pets_infra)
+
+### 3. 🕵️‍♂️ 셜록 홈즈 (Sherlock Holmes) 인터랙티브 추리 게임
+> **Description:** 고전 소설을 현대적으로 재해석한 터치 기반 인터랙티브 스토리 게임
 - **Tech:** Python, Ren'Py, Generative AI (Asset Creation)
-- **Role:** 게임 시나리오 기획, 로직 구현, AI 활용 에셋 제작
-- [👉 GitHub Repo Link](#) ### 3. 실시간 엔화 환율 트래커 (Yen Exchange Rate Tracker)
-> **Description:** 실시간 환율 정보를 시각화하여 제공하는 웹 서비스
-- **Tech:** HTML/CSS, JavaScript, API Integration
-- **Role:** 프론트엔드 개발 및 외부 API 연동
-- [👉 GitHub Repo Link](#) <br>
+- **Role:** 게임 시나리오 기획, 분기형 스토리 로직 구현, AI 활용 에셋 제작
+- [👉 **GitHub Repo Link**](#) <br>
 
 ## 📈 GitHub Stats
 <div align="center">
