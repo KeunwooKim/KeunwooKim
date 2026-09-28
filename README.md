@@ -74,7 +74,7 @@
 
 ## 📈 GitHub Stats
 <div align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=KeunwooKim&layout=compact&theme=radical" height="165" alt="Top Langs"/>
+  <img src="https://gh-stats.work/api/top-langs/?username=KeunwooKim&layout=compact&theme=radical" height="165" alt="Top Langs"/>
 </div>
 <br>
 
